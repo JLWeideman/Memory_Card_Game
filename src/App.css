@@ -36,3 +36,97 @@
     transform: rotate(360deg);
   }
 }
+
+/* Style the wrapper div */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Style the login form */
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 40vw;
+  text-align: center;
+  box-shadow: 6px 6px 6px gray;
+  background: white;
+}
+
+/* Style the navbar */
+.navbar {
+  display: flex;
+  box-shadow: 4px 4px 6px gray;
+  justify-content: space-between;
+}
+
+/* Style the game field */
+.game {
+  display: flex;
+  height: 85vh;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style where the card images will show */
+.images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+}
+
+/* Style the cards themselves */
+.image {
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  height: 120px;
+  width: 120px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px black;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* Set the card back image */
+.image-back {
+  background: url("./Components/Card_Images/Card_Back.png") !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  height: 120px;
+  width: 120px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px black;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* style the end game message box */
+.end-game {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* Style the end game message */
+.message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 40vw;
+  background: white;
+  box-shadow: 12px 12px 10px gray;
+}
